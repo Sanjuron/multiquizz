@@ -25,7 +25,7 @@ function App() {
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/categories" component={Categories} />
-      <Route path="/categories/:slug" component={Category} />
+      <Route path="/categories/:slug" component={Category} /> 
       <Route path="/quizzes" component={Quizzes} />
       </Switch>
 

@@ -15,9 +15,9 @@ class Categories extends Component {
 
 
         let categoryList = categories.map(category => {
-            let url = "/categories/" + category.slug;
+            let url = "/categories/" + category.slug; // ajoute les slugs contenuent dans categories à l'url
             return ( 
-                <Link to={url}><h2>{category.title}</h2></Link>
+                <Link to={url}><h2>{category.title}</h2></Link> // présente le titre de chaque catégorie en les liant à leur url
             )
         })
 
