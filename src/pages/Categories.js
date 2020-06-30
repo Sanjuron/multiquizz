@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import categories from "../datas/categories.json";
+import {Link} from "react-router-dom";
 
 class Categories extends Component {
     state = { 
@@ -14,8 +15,9 @@ class Categories extends Component {
 
 
         let categoryList = categories.map(category => {
+            let url = "/categories/" + category.slug;
             return ( 
-                <h2>{category.title}</h2>
+                <Link to={url}><h2>{category.title}</h2></Link>
             )
         })
 

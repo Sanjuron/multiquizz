@@ -1,5 +1,6 @@
 [
     {
+        "id" : 1,
         "quizzId" : 1,
         "question": "Qui a réalisé Le Bon, La Brute, et le Truand ?",
          "answers" : [
@@ -26,8 +27,74 @@
     },
 
     {
+        "id" : 2,
         "quizzId" : 1,
         "question": "Quel est le nom de la tombe où est censé se trouver l'or ?",
-        "answer" : "Arch Stanton"
-    }
+        "answers" : [
+            {
+                 "answer" : "Bob Smith",
+                 "right" : false
+             },
+ 
+             {
+                 "answer" : "Willie Grammond",
+                 "right" : false
+             },
+ 
+             {
+                 "answer" : "Arch Stanton",
+                 "right" : true
+             },
+ 
+             {
+                 "answer" : "Richard Richardson",
+                 "right" : false
+             }
+         ]
+    },
+
+    {
+        "id" : 3,
+        "quizzId" : 1,
+        "question": "Quel est le surnom du personnage interprété par Clint Eastwood ?",
+        "answers" : [
+            {
+                 "answer" : "Junior",
+                 "right" : false
+             },
+ 
+             {
+                 "answer" : "Blondin",
+                 "right" : true
+             },
+ 
+             {
+                 "answer" : "Arch Stanton",
+                 "right" : false
+             },
+ 
+             {
+                 "answer" : "Tuco Esperanza",
+                 "right" : false
+             }
+         ]
+    },
+
+    {
+        "id" : 4,
+        "quizzId" : 1,
+        "question": "Le Bon, la Brute et le Truand est le dernier film de Sergio Leone",
+        "answers" : [
+            {
+                 "answer" : "Vrai",
+                 "right" : true
+             },
+ 
+             {
+                 "answer" : "faux",
+                 "right" : false
+             } 
+
+         ]
+    },
 ]

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 //pages
 import Home from "./pages/Home";
@@ -9,6 +9,7 @@ import Quizzes from './pages/Quizzes';
 import History from './pages/History';
 import Litterature from './pages/Litterature';
 import Cinema from './pages/Cinema';
+import Category from "./pages/Category";
 
 
 //components
@@ -21,12 +22,12 @@ function App() {
     <div className="App ">
       <Navbar />
     </div>
+    <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/categories" component={Categories} />
+      <Route exact path="/categories" component={Categories} />
+      <Route path="/categories/:slug" component={Category} />
       <Route path="/quizzes" component={Quizzes} />
-      <Route path="/history" component={History} />
-      <Route path="/cinema" component={Cinema} />
-      <Route path="/Litterature" component={Litterature} />
+      </Switch>
 
 
     </Router>

@@ -5,8 +5,10 @@ class History extends Component {
     state = {  }
     render() { 
 
-        let history = quizzes.filter( quizz => quizz.categoryId === 2);
+        // let id = this.props.match.params.id;        
+        // console.log(id);
 
+        let history = quizzes.filter( quizz => quizz.categoryId === 2);
          let historyList = history.map(film => {
             return (
                 <h2>{film.title}</h2>
