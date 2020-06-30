@@ -1,0 +1,33 @@
+[
+    {
+        "quizzId" : 1,
+        "question": "Qui a réalisé Le Bon, La Brute, et le Truand ?",
+         "answers" : [
+           {
+                "answer" : "Sergio Leone",
+                "right" : true
+            },
+
+            {
+                "answer" : "Raoul Walsh",
+                "right" : false
+            },
+
+            {
+                "answer" : "Arthur Penn",
+                "right" : false
+            },
+
+            {
+                "answer" : "Steven Spielberg",
+                "right" : false
+            }
+        ]
+    },
+
+    {
+        "quizzId" : 1,
+        "question": "Quel est le nom de la tombe où est censé se trouver l'or ?",
+        "answer" : "Arch Stanton"
+    }
+]

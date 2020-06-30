@@ -1,0 +1,38 @@
+h1 {
+    padding-top: 20px;
+}
+
+
+.categories, .quizzes, .cinema, .history, .litterature {
+    text-align: center;
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+}
+
+
+
+h2 {
+    margin: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+
+
+    &:hover{
+        background-color: darken(indianred, 10%);
+        color: whitesmoke;
+    }
+}
+
+.quizzes h2, .home h2 {
+    margin: 30px auto;
+}

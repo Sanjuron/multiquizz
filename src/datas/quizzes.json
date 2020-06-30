@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "slug": "bon-brute-truand",
+        "title": "Le Bon, la Brute et le Truand",
+        "categoryId": 1
+    },
+
+    {
+        "id": 2,
+        "slug": "dents-de-la-mer",
+        "title": "Les Dents de la Mer",
+        "categoryId": 1
+    },
+
+    {
+        "id": 3,
+        "slug": "les-affranchis",
+        "title": "Les Affranchis",
+        "categoryId": 1
+    },
+
+    {
+        "id": 4,
+        "slug": "la-revolution-francaise",
+        "title": "La Révolution Française",
+        "categoryId": 2
+    },
+
+    {
+        "id": 5,
+        "slug": "rome-antique",
+        "title": "La Rome Antique",
+        "categoryId": 2
+    },
+
+    {
+        "id": 6,
+        "slug": "litterature-francaise",
+        "title": "La Littérature Française",
+        "categoryId": 3
+    },
+
+    {
+        "id": 7,
+        "slug": "litterature-russe",
+        "title": "La Littérature Russe",
+        "categoryId": 3
+    }
+
+
+]
